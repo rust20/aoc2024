@@ -7,7 +7,8 @@ import (
 
 func main() {
     // duration(day1)
-    duration(day4)
+    // duration(day4)
+    duration(day5)
 }
 
 func duration(f func()) {
