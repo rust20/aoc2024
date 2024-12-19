@@ -7,6 +7,11 @@ type pair struct {
 	second int
 }
 
+type pairu64 struct {
+	first  uint64
+	second uint64
+}
+
 type stack struct {
     data []int
     pos int
