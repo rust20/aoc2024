@@ -11,7 +11,8 @@ func main() {
     // duration(day5)
     // duration(day6)
     // duration(day7)
-    duration(day8)
+    // duration(day8)
+    duration(day9)
     // mainother_day6()
 }
 
