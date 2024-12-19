@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>index</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/htmx.org@2.0.4"></script>
+    <style>
+      html {
+        font-family: monospace, monospace;
+      }
+    </style>
+  </head>
+  <body
+    class="font-mono">
+    <!-- have a button POST a click via AJAX -->
+    <button hx-post="/day6">Click Me</button>
+
+    <div hx-get="/day6" hx-trigger="every 2s"></div>
+  </body>
+</html>

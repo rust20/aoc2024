@@ -8,11 +8,6 @@ import (
 	"strings"
 )
 
-type pair struct {
-	first  int
-	second int
-}
-
 func day5() {
 	inpFileName := os.Args[2]
 
